@@ -1,0 +1,9 @@
+post http://localhost:3001/api/notes
+Content-Type: application/json
+
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJvb3QiLCJpZCI6IjY0YzZiZGVhMWUwZjNkNzBjYjgzZmQ1ZiIsImlhdCI6MTY5MDc4ODczNn0.oeuYLQFTSW7BKyAZEKZzPPFwE0MnBxtIIkMpGgotFAk
+
+{
+    "content": "My new note si just fine",
+    "important": true
+}
